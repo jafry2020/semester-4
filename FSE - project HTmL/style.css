@@ -1,0 +1,160 @@
+/* Typography */
+body {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    background-color: lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        nav a.active,
+        nav a:hover {
+            background-color: #f9f9f9;
+        }
+
+/* Hero */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% transparent gray */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* CTA */
+.cta {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+    .cta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 255, 0.3);
+    color: #333;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .btn:hover {
+        background-color: #f9f9f9;
+    }
+
+/* Footer */
+footer {
+    background-color: rgb(255, 255, 255,0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+    footer p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
